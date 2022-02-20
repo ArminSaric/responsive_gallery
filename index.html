@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+
+    <style>
+
+        body{
+            background-color: black;
+        }
+
+        #main_container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #header{
+            color: white;
+            flex-basis: 100%;
+            margin: 25px;
+        }
+
+        .box_1{
+            background-color: rgb(87, 130, 224);
+            width: 150px;
+            border: solid 1px white;
+            border-radius: 8px;
+            margin: 23px;
+        }
+
+        .box_2{
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+            background-color: white;
+            height: 40px;
+            border-radius: 8px;
+            border-start-end-radius: 0px;
+            border-start-start-radius:  0px;
+            text-align: center;
+            padding-top: 0.02px;
+        }
+
+
+        img{
+            width: 100%;
+        }
+
+        #footer{
+            color: white;
+            flex-basis: 100%;
+            margin: 25px;
+            width: 100%;
+            font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+            margin-right: 75px;
+        }
+
+        @media screen and (max-width:428px) {
+            #main_container {
+                width: 50%;
+                margin: 0 auto;
+            }
+
+            h1{
+                font-size:15px;
+            }
+
+            p{
+                font-size: 70%;
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div id="main_container">
+
+        <div id="header"><h1>Gallery Heading</h1></div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div class="box_1"><img src="placeholder-image.png">
+            <div class="box_2"><p>Image title</p></div>
+        </div>
+        <div id="footer"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    </div>
+    
+</body>
+</html>
